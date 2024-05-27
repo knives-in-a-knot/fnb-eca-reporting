@@ -18,10 +18,8 @@ with open('credentials.json') as config_file:
     password = config['password']
 
 # the numbers that follow the month represent hours, minutes, and seconds
-startDate = datetime(2024, 5, 17, 0, 0, 0)
-endDate = datetime(2024, 5, 23, 23, 59, 59)
-
-# "setId": "926710",
+startDate = datetime(2024, 5, 24, 0, 0, 0)
+endDate = datetime(2024, 5, 30, 23, 59, 59)
 
 data = {
     "setFormCode": "fnb-personal-dev",
